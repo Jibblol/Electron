@@ -1,11 +1,3 @@
-let myNotification = new Notification('Title', {
-    body: 'Lorem Ipsum Dolor Sit Amet'
-})
-
-myNotification.onclick = () => {
-    console.log('Notification clicked')
-}
-
 function incrementValue(){
     
     var value = parseInt(document.getElementById('number').value, 10);
