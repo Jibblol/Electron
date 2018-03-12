@@ -8,7 +8,7 @@ function incrementValue(){
     console.log('Called! :))))')
 }
 
-function buyUpgrade(){
+function upgradeOne(){
     var value = parseInt(document.getElementById('number').value, 10);
     value = isNaN(value) ? 0 : value;
     if(value>=5){
