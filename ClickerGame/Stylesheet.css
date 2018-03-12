@@ -1,0 +1,12 @@
+/* .container {
+    background-color: blue;
+} */
+
+#sidebar {
+    position: relative;
+    width: 300px;
+    height: relative;
+    float: right;
+    top: -86px;
+    background-color: aqua;
+}
